@@ -1,0 +1,50 @@
+.crouselMainDiv {}
+.crousel-1{
+    background-image:url("https://img.freepik.com/premium-photo/demodara-nine-arch-bridge-ella-sri-lanka_131985-429.jpg?size=626&ext=jpg&ga=GA1.2.1767239254.1668682085");
+}
+.crousel-2{
+    background-image:url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+.crousel-3{
+    background-image:url("https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+.crousel-4{
+    background-image:url("https://images.pexels.com/photos/145685/pexels-photo-145685.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+.crousel-5{
+    background-image:url("https://images.pexels.com/photos/372166/pexels-photo-372166.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+.crouselTextDiv{
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 100px;
+}
+.crouselTextDiv p{
+    text-align: justify;
+}
+.crouselTextDiv h1{
+    text-align: center;
+}
+.singleSlideDiv{
+    height: 0;
+    padding: 0;
+    padding-bottom: 40%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 818px) {
+    .crouselTextDiv{
+        margin: 0 auto;
+        max-width: 500px;
+        margin-top: 50px;
+        padding: 5px;
+    }
+    .singleSlideDiv{
+        padding-bottom:500px;
+    }
+    .crouselTextDiv h1{
+        font-size: 20px;
+    }
+}

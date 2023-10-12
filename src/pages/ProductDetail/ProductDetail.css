@@ -1,0 +1,39 @@
+.product-detail-main-div{
+    background-color: white;
+}
+.product-detail-main-div img{
+    width: 100%;
+}
+.product-detail-main-div h1{
+    color: green;
+}
+.productDetail-product-image{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 0;
+    text-align: center;
+}
+.productDetailBodyDiv {
+    margin: 20px;
+}
+.productDetailBodyDiv li{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.productDetailBodyDiv h2{
+    margin-top: 15px;
+}
+.ProductText {
+    text-align: justify;
+    margin-top: 15px;
+}
+.productDetailInfoDiv{
+    display: flex;
+    justify-content: left;
+    background-color: #B0B0B0;
+    padding: 20px;
+}
+.productDetailInfoDiv p{
+    margin-right: 40px;
+}

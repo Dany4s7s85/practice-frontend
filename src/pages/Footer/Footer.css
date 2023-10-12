@@ -1,0 +1,50 @@
+.FooterMainDiv {
+    display: block;
+    margin-top: 50px;
+    background-color: #232b2b;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footerFormDiv{
+    width: 700px;
+    padding: 20px;
+}
+.footerTextArea{
+    color: #979797;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #3B3B3B;
+    padding: 5px;
+    font-size: 15px;
+}
+.footerTextArea::placeholder{
+    color: #979797;
+}
+.footerTextArea:focus{
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+.footerButton{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #979797;
+    cursor: pointer;
+}
+.footerButton:hover{
+    background-color: #B8B8B8;
+}
+
+@media screen and (max-width: 818px) {
+    .footerTextArea{
+        font-size: 12px;
+    }
+}

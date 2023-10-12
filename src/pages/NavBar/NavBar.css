@@ -1,0 +1,124 @@
+.MainDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: white;
+}
+.MainDiv div{
+    display: flex;
+    justify-content: center;
+}
+.NavLogoDiv {
+    width: 20%;
+}
+.LogoLink {
+    text-decoration: none;
+    color: black;
+}
+.NavLogo {
+    margin-top: 10px;
+}
+.NavLogo span{
+    color: #17A589;
+}
+.NavLinksDiv {
+    width: 60%;
+}
+.NavLink {
+    color:black;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.NavLink:hover {
+    color: #437064;
+}
+.NavLoginDiv {
+    width: 20%;
+    padding-right: 15px;
+}
+.NavLoginButon {
+    color: green;
+    margin-top: 5px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+.NavLoginButon:hover{
+    background-color: green;
+    color: white;
+}
+.NavMenuDiv{
+    text-align: end;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+.MenuIcon {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 818px) {
+    .NavMenuDiv{
+        display: block;
+    }
+    .animatedMenuPage {
+        width: 100%;
+        display: block;
+        background-color: #bebebe;
+        z-index: 1;
+        position: absolute;
+    }
+    .animatedMenuPage div{
+        width: auto;
+    }
+    .closeIconDiv{
+        text-align: end;
+    }
+    .closeIcon{
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .NavLogo {
+        margin-left: 44px;
+    }
+    .errowIcon {
+        transform: scale(0.5);
+    }
+    .spamErrowIcon{
+        visibility: hidden;
+    }
+    .NavLink:hover .spamErrowIcon{
+        visibility: visible;
+    }
+    .NavLink{
+        display: block;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding: 10px 0px 10px 40px;
+    }
+    .NavLoginDiv{
+        padding-right: 0px;
+    }
+    .NavLoginButon {
+        display: block;
+        color: green;
+        text-decoration: none;
+        margin-top: 0px;
+        padding: 10px 0px 10px 40px;
+        border-radius: 0px;
+    }
+    .NavLoginButon:hover {
+        background-color: #bebebe;
+        color: #437064;
+    }
+    .NavLoginButon:hover .spamErrowIcon{
+       visibility: visible;
+    }
+}
